@@ -1,19 +1,18 @@
-Project Guidelines
-Your project should conform to the following set of guidelines:
+# Bank of Flatiron
+This is an App for the Bank of Flatiron that holds transaactions.
 
-Core Deliverables
-As a user, I can:
 
-See a table of all transactions.
- Fill out and submit the form to add a new transaction. This should add the new transaction to the table * the new transaction does not have to be persisted to the backend *
-Filter transactions by typing into the search bar. Only transactions with a description matching the search term should be shown in the transactions table.
-Bonus Deliverables
-These bonus deliverables are here if you want an extra challenge and won't affect your score. Make sure to commit your work to save your progress before attempting the bonus deliverables!
+## Proect Description
+This Application hold transactions where you can add a transaction to the list. You can also search through the transactions by sorting where the  app will render transactions according to the user input. You should also be able to delete a transactions in this application.
 
-As a user, I should be able to:
 
-- Sort transactions alphabetically by category or description.
+## Getting Started
 
-- Delete a transaction which will remove it from the table
+Fork and clone this repository on your local machine using git clone and then navigate to the respository directory. After that run npm install to install the dependencies needed for the respository.You can now run the following commands.
+    npm run server
+    npm start 
+After that, your app will be app and running.
 
- 
+## Technologies used
+
+This application uses react as its core library. THerefore you have to install the dependencies needed for react. You can therefore use state to manage the app and useEffect to run the apps side effects. The app requires JSX functions for it to run.
